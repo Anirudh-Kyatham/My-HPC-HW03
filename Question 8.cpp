@@ -4,8 +4,8 @@
 #include<string>
 /*
 here the time complexity is O(n) as filling the unordered map are O(n)
-and the for loop also has time complexity O👎
-Here I have used c++ standard
+and the for loop also has time complexity O(n)
+Here I have used c++ standard 17
 */
 bool isAnagram(std::string s, std::string t) {
     if (s.size() != t.size())
